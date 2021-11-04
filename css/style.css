@@ -39,6 +39,58 @@
 
 .logo {width: 6%;}
 
+.galeria {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.item1{
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+ margin-top:20px;
+
+}
+.item2{
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+ margin-top:20px;
+
+}
+.item3{
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+ margin-top:20px;
+
+}
+.item4{
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-top: 200px;
+  margin-bottom: 200;
+}
+.item5{
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-top: 200px;
+  margin-bottom: 200;
+}
+.item6{
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-top:200px;
+  margin-bottom: 200;
+}
+
+
 /*parrafo*/
 p {text-align: left;
   font-weight: lighter;
@@ -172,6 +224,7 @@ h3 {text-align: center;
 
 .banner { width: 100%;
   margin: auto;
+  margin-bottom: 0px;
   align-items: center;
 
 }
@@ -367,6 +420,7 @@ p{
   display:flex;
   flex-wrap: wrap;
   background-color: coral;
+  margin-top: 200px;
   }
 
 .pata .lovely {padding: 1em;
